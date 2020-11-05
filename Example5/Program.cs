@@ -29,7 +29,6 @@ namespace Example5
             static void Main(string[] args)
             {
              
-
                 Console.WriteLine("Введите положительное число: ");
                 int n = Int32.Parse(Console.ReadLine());
                 Task <int[]> t=  MasAsync(n);   // вызов асинхронного метода
